@@ -45,11 +45,14 @@ This is a portfolio project completed as part of my Data Analytics Certificate p
 
 ### Step 3 — Clustering with K-means
 - Used the elbow curve method to determine the optimal number of clusters (k=4)
+  ![Elbow_Curve](Images/Elbow_Curve.png)
 - Fit the K-means model and assigned cluster labels to each cryptocurrency
 
 ### Step 4 — Visualizing Results
 - Built a 3D scatter plot using Plotly to visualize the four cryptocurrency clusters across the three PCA components
+  ![3D Scatter Plot](Images/3D_Scatter_Plot.png)
 - Built a 2D scatter plot comparing total coins mined vs. total coin supply, colored by cluster assignment
+![2D Scatter Plot](Images/Scatter_Plot.png)
 
 ---
 
